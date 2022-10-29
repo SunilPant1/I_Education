@@ -3,71 +3,82 @@
     width: 130px;
   }
 }
+
 @media (min-width: 0px) and (max-width: 910px) {
+  
   .navbar {
     height: 500px;
     transition: all 0.5s ease-out;
     flex-direction: column;
   }
+  
   .navlist {
     flex-direction: column;
   }
+  
   .rightnav {
     width: 20%;
     display: flex;
     flex-direction: column;
   }
+  
   #search {
     max-width: 80%;
     margin: auto;
   }
+  
   .btn-sm {
     width: 75px;
     margin: 10px auto;
   }
+  
   .h-nav-resp {
     height: 72px;
   }
+  
   .v-class-resp {
     opacity: 0;
   }
+  
   .burger {
     display: block;
   }
+  
   .boxmain {
     flex-direction: column-reverse;
     max-width: 100%;
   }
+  
   .secleft {
     flex-direction: column-reverse;
   }
+  
   .secright {
     flex-direction: column-reverse;
   }
+  
   .btnsubmit {
     max-width: 60%;
   }
+  
   .thumbnail {
     max-width: 100%;
   }
+  
   .para {
     padding: 0px;
     text-align: left;
     max-width: 100%;
   }
+  
   .secondhalf {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+  
   .imgfluid {
     max-width: 100%;
   }
-  /* .secleft{
-    max-width: 100%;
-}
-.textbig{
-    max-width: 100%;
-    text-align: center;
-} */
+
 }
