@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 .navbar{
     display: flex;
     align-items: center;
@@ -17,6 +19,7 @@ html{
     padding: 5px 0px;
     
 }
+
 .logo{
     width: 20%;
     display: flex;
@@ -35,18 +38,15 @@ html{
 .navlist{
     width: 70%;
     display: flex;
-    /* background-color: black; */
-    /* justify-content: center; */
-    /* justify-content: center; */
     align-items: center;
 }
+
 .navlist li{
 list-style: none;
 padding: 20px 30px;
 }
 
 .navlist li a:hover{
-
 color: grey;
 }
 
@@ -58,7 +58,6 @@ font-size: 20px;
 }
 
 .rightnav{
-    /* background-color: teal; */
     width: 30%;
    text-align: right;
    padding: 0px 25px;
